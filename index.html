@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <style type="text/tailwindcss">
+      @theme {
+        --color-webcolor: linear-gradient(90deg, #fb8c00 0%, purple 100%);
+      }
+    </style> -->
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body style="background-image: url(./images/landing-bg.png);">
+
+  <!-- top contact display -->
+  <section>
+    <div class="web-gradient py-2">
+      <div class="w-container">
+        <p class="text-white"><small>+27 11 312 7551 | bookings@vusithembekwayo.com</small></p>
+      </div>
+    </div>
+
+    <div class="bg-black py-6 text-white">
+      <div class="w-container flex justify-between items-center">
+        <img src="./images/trademark.png" alt="Logo" class="w-[150px]">
+        <nav class="max-[800px]:hidden">
+          <ul class="center gap-3 text-sm">
+            <li class="py-1"><a href="#">HOME</a></li>
+            <li class="py-1 center gap-1 relative group">
+              <a href="about.html">ABOUT</a>
+              <!-- <i class='bx  bx-caret-down'></i>  -->
+              <!-- <div class="dropdown bg-zinc-900 slide absolute top-[100%] left-0 w-[100px] text-white hidden group-hover:block">
+                <ul>
+                  <a href="#"><li class="px-3 py-2 hover:bg-gray-700">Speaker</li></a>
+                  <a href="#"><li class="px-3 py-2 hover:bg-gray-700">Investor</li></a>
+                  <a href="#"><li class="px-3 py-2 hover:bg-gray-700">Leader</li></a>
+                </ul>
+              </div> -->
+            </li>
+            <li class="py-1"><a href="#">PRESS ROOM</a></li>
+            <li class="center gap-1 py-1 relative group">
+              <a href="#">DIARY OF A BLACK DRAGON</a>
+              <!-- <i class='bx  bx-caret-down'></i> -->
+              <!-- <div class="dropdown bg-zinc-900 slide absolute top-[100%] left-0 w-[200px] text-white hidden group-hover:block">
+                <ul>
+                  <a href="#"><li class="px-3 py-2 hover:bg-gray-700">Underdogs</li></a>
+                  <a href="#"><li class="px-3 py-2 hover:bg-gray-700">Interviews</li></a>
+                  <a href="#"><li class="px-3 py-2 hover:bg-gray-700">News</li></a>
+                  <a href="#"><li class="px-3 py-2 hover:bg-gray-700">Podcasts</li></a>
+                  <a href="#"><li class="px-3 py-2 hover:bg-gray-700">Testimonials</li></a>
+                  <a href="#"><li class="px-3 py-2 hover:bg-gray-700">Gallery</li></a>
+                </ul>
+              </div> -->
+            </li>
+            <li class="py-1"><a href="#">SHOP</a></li>
+            <li class="py-1"><a href="#">CONTACT</a></li>
+          </ul>
+        </nav>
+        <img src="./images/menu.png" class="w-[30px] min-[800px]:hidden">
+      </div>
+    </div>
+  </section>
+
+  <!-- hero -->
+  <section class="min-h-[500px] text-white center text-center px-3">
+    <div class="w-[1000px] max-[1024px]:w-[99%]">
+      <div>
+        <h1 class="text-5xl font-bold min-h-[60px] max-sm:text-3xl" 
+        id="element"></h1>
+        <p class="py-3 text-xl">Vusi elevates the thinking of blue-chip companies across the globe and advises them on how to disrupt themselves to thrive.</p>
+        <div class="btns center gap-5 flex-wrap mt-3">
+          <button class="uppercase btn rounded-full">Book a one-on-one</button>
+          <button class="uppercase btn rounded-full">Book a keynote</button>
+        </div>
+      </div>
+
+      <!-- swiper -->
+      <div class="mt-25">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper center">
+            <div class="swiper-slide">
+              <img src="./images/Forbes.png" class="w-[150px] max-sm:w-[350px]">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/Goalcast.png" class="w-[150px] max-sm:w-[350px]">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/Impact-theory.png" class="w-[150px] max-sm:w-[350px]">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/LEAP.png" class="w-[150px] max-sm:w-[350px]">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/Moneyweb.png" class="w-[150px] max-sm:w-[350px]">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/bbc.png" class="w-[150px] max-sm:w-[350px]">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/MSNBC.png" class="w-[150px] max-sm:w-[350px]">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/News-24.png" class="w-[150px] max-sm:w-[350px]">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/pressreader.png" class="w-[150px] max-sm:w-[350px]">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/techabal.png" class="w-[150px] max-sm:w-[350px]">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/trade-arabia.png" class="w-[150px] max-sm:w-[350px]">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/Ventureburn.png" class="w-[150px] max-sm:w-[350px]">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/Zawya.png" class="w-[150px] max-sm:w-[350px]">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/yahoo-finance.png" class="w-[150px] max-sm:w-[350px]">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/Entrepreneur-magazine.png" class="w-[150px] max-sm:w-[350px]">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/Bloomberg.png" class="w-[150px] max-sm:w-[350px]">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/CNBC.png" class="w-[150px] max-sm:w-[350px]">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/Disrupt-africa.png" class="w-[150px] max-sm:w-[350px]">
+            </div>
+          </div>
+          <!-- <div class="swiper-pagination"></div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- rockstar -->
+  <div class="min-h-[150px] bg-white text-black center px-3">
+    <h1 class="text-4xl font-bold text-center max-sm:text-3xl">THE ROCKSTAR OF PUBLIC SPEAKING</h1>
+  </div>
+
+  <!-- Speaker -->
+  <section class="bg-black text-white py-8 px-4">
+    <!-- first sec -->
+    <div class="max-w-[800px] mx-auto">
+      <figure class="sec-one flex justify-center items-center gap-5 max-[580px]:flex-col">
+        <img src="./images/Image-for-Meet-Vusi-Section-021-scaled.jpg" 
+        class="w-[350px] max-md:w-[280px]"
+        style="border-radius: 30% 70% 72% 28% / 36% 30% 70% 64%;">
+        <figcaption class="text-[15px]">
+          <p data-aos="fade-left" data-aos-duration="1000">How many speakers can say they’ve crushed a debate at Oxford Union by 273 votes to 28, addressed Harvard’s Centre for African Studies, and shared the stage with Oprah Winfrey, T.D. Jakes, and Sir Bob Geldof, or exchanged backstage notes with Michael Phelps the most decorated Olympian in history?</p>
+          <p class="py-2" data-aos="fade-left" data-aos-duration="1500">Vusi can. And he’s got the receipts.</p>
+          <p data-aos="fade-left" data-aos-duration="1000">Since 2015, this force of nature has delivered over 480 keynotes across six continents, from sold-out arenas in New York, London, Atlanta, and Texas to packed auditoriums in Dubai, Lagos, and Johannesburg. When Fortune 500 CEOs need their thinking elevated and their strategies disrupted,there’s only one call they make.</p>
+        </figcaption>
+      </figure>
+
+      <div class="text-center mt-8 flex flex-col gap-2">
+        <h1 class="text-lg font-bold">Here’s what separates Vusi from every other suit with a microphone:</h1>
+        <p class="text-[15px]">While others talk theory, he builds empires. As Executive Chairman of Thembekwayo Legacy Group and founder of MyGrowthFund Venture Partners with a mission to back 100 ventures and create 100,000 jobs, Vusi doesn’t just preach transformation; he funds it.</p>
+        <p class="text-[15px]">By 28, he was already a Dragon investor on Dragon’s Den AND director plus board sub-committee chair of a JSE-listed company. By 29, he graced the cover of Entrepreneur magazine. These aren’t just achievements they’re almost record-setting feats that left an entire generation of wannabe thought leaders in the dust.</p>
+      </div>
+    </div>
+
+    <!-- second sec -->
+    <div class="pt-8 flex justify-center gap-4 max-md:flex-col-reverse max-md:items-center">
+      <div class="w-[700px] max-md:w-[100%] flex flex-col gap-4 text-[15px]">
+        <h1 class="text-2xl font-bold text-white" data-aos="fade-up" data-aos-duration="1000">Here’s the uncomfortable truth:</h1>
+        <p data-aos="fade-up" data-aos-duration="1000">Most speakers theorize about business disruption and competitive advantage from the sidelines. Vusi lives it. He doesn’t just talk about managing change, he sits in boardrooms making the decisions that create it. While others preach strategy, he’s the guy Fortune 500 CEOs call when they need someone who’s actually done it.</p>
+        <p data-aos="fade-up" data-aos-duration="1000">In 2024 alone, he addressed a prestigious gathering at the British House of Lords, debated at the Oxford Union, delivered a keynote at Harvard’s Centre for African Studies, and spoke to over 2,000 delegates at the International Leadership Summit. Oh, and he picked up the EMY Africa Guardian Award, Paul Harris Rotary Fellowship, and African Achievers Award while he was at it.</p>
+        <p data-aos="fade-up" data-aos-duration="1000">While your competitors are booking yesterday’s speakers, the smartest leaders in the room are already three steps ahead. They know that in a world where disruption isn’t coming, it’s here, you need someone who doesn’t just understand change but architects it.</p>
+        <h1 class="font-bold text-lg italic" data-aos="fade-up" data-aos-duration="1000">The question isn’t whether you can afford to book Vusi. It’s whether you can afford not to.</h1>
+        <p class="italic" data-aos="fade-up" data-aos-duration="1000">Ready to elevate your event from memorable to legendary? Some conferences change minds. Others change industries. Which kind are you hosting?</p>
+        <button class="btn web-gradient rounded-full w-fit !text-lg" data-aos="fade-up" data-aos-duration="1000">Book Now</button>
+      </div>
+
+      <div>
+        <img src="./images/Image-of-VT-051-scaled.png" class="w-[500px]"
+        style="border-radius: 40% 60% 34% 66% / 37% 35% 65% 63%; border: 2px solid whitesmoke;"
+        data-aos="fade-up-left" data-aos-duration="3000">
+      </div>
+    </div>
+  </section>
+
+  <!-- speaker, author, public figure lists -->
+  <div class="webcolor text-white">
+    <div class="items flex">
+      <div class="item w-[20%]">
+        <p class="py-2 text-center max-sm:text-[13px]">Creator</p>
+        <img src="./images/Press-Room-Tab-47-800x1000.jpg" class="w-full">
+      </div>
+      <div class="item w-[20%]">
+        <p class="py-2 text-center max-sm:text-[13px]">Speaker</p>
+        <img src="./images/Invester-Website-ThumbnailsThumbnails-15-800x1000.jpg" class="w-full">
+      </div>
+      <div class="item w-[20%]">
+        <p class="py-2 text-center max-sm:text-[13px]">Author</p>
+        <img src="./images/Creator-Website-ThumbnailsThumbnails-18-800x1000.jpg" class="w-full">
+      </div>
+      <div class="item w-[20%]">
+        <p class="py-2 text-center max-sm:text-[13px]">Investor</p>
+        <img src="./images/Press-Room-Tab-47-800x1000.jpg" class="w-full">
+      </div>
+      <div class="item w-[20%]">
+        <p class="py-2 text-center max-sm:text-[13px]">Leader</p>
+        <img src="./images/Invester-Website-ThumbnailsThumbnails-15-800x1000.jpg" class="w-full">
+      </div>
+    </div>
+  </div>
+
+  <!-- what people say -->
+  <div class="bg-white pb-6">
+    <div class="min-h-[150px] center px-3">
+      <h1 class="text-4xl font-bold max-sm:text-3xl">WHAT PEOPLE SAY ABOUT VUSI</h1>
+    </div>
+
+    <div class="flex flex-wrap justify-center gap-4 px-3">
+        <img src="./images/testimonies/Bob-Bob-Geldof-Testimonial-B.jpg" class="w-[250px] max-md:grow max-md:w-[150px]">
+        <img src="./images/testimonies/Darren-Roos-Testimonials-46.jpg" class="w-[250px] max-md:grow max-md:w-[150px]">
+        <img src="./images/testimonies//John-Howard-Testimonial-B.jpg" class="w-[250px] max-md:grow max-md:w-[150px]">
+        <img src="./images/testimonies/Nelson-Mandela-Testimonial-B.jpg" class="w-[250px] max-md:grow max-md:w-[150px]">
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer class="bg-black text-white pt-8">
+    <div class="max-w-[1000px] px-3 mx-auto pb-4">
+      <div class="mb-4"><img src="./images/trademark.png" alt="Logo" class="w-[200px]"></div>
+
+      <!-- quick links -->
+      <div class="quicklinks flex gap-8 flex-wrap">
+        <div class="item">
+          <h2 class="mb-3">QUICK LINKS</h2>
+          <ul class="flex flex-col gap-2">
+            <li class="text-sm"><a href="#">Book Vuisi</a></li>
+            <li class="text-sm"><a href="index.html">VT CLUB100</a></li>
+            <li class="text-sm"><a href="index.html">Books</a></li>
+            <li class="text-sm"><a href="index.html">Podcasts</a></li>
+            <li class="text-sm"><a href="index.html">Press Room</a></li>
+          </ul>
+        </div>
+        <div class="item">
+          <h2 class="mb-3">RESOURCES</h2>
+          <ul class="flex flex-col gap-2">
+            <li class="text-sm"><a href="#">Toolkits</a></li>
+            <li class="text-sm"><a href="index.html">Articles</a></li>
+            <li class="text-sm"><a href="index.html">Videos</a></li>
+          </ul>
+        </div>
+        <div class="item">
+          <h2 class="mb-3">INFORMATION</h2>
+          <ul class="flex flex-col gap-2">
+            <li class="text-sm"><a href="#">Cookie Policy</a></li>
+            <li class="text-sm"><a href="index.html">Privacy Policy</a></li>
+            <li class="text-sm"><a href="index.html">Terms and Conditions</a></li>
+            <li class="text-sm"><a href="index.html">Return and Refund Policy</a></li>
+            <li class="text-sm"><a href="index.html">Media Release Policy</a></li>
+          </ul>
+        </div>
+        <div class="item">
+          <h2 class="mb-3">CONTACT</h2>
+          <ul class="flex flex-col gap-2">
+            <li class="text-sm"><a href="#">info@vusithembekwayo.com</a></li>
+            <li class="text-sm"><a href="index.html">+27 11 312 7551</a></li>
+            <li class="flex gap-2 flex-wrap">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-x-twitter"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright text-center border-t-2 border-gray-800 py-4 px-2">
+      <p>Copyright © Vusi Thembekwayo 2025. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> <!-- swiper cdn  -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> <!-- typewriter cdn -->
+
+  <!-- JS Script -->
+  <script>
+    // JS Swiper * * *
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 5,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      autoplay: {
+        delay: 3000, // 3 seconds before auto-swiping to next slide
+        disableOnInteraction: false, // keeps autoplay running even after user interaction
+      },
+      loop: true,
+    });
+
+    // JS Typewriter * * *
+    var typed = new Typed('#element', {
+      strings: [
+        'TITANS OF AFRICA, DUBAI', 
+        'World Top 12 Speakers', 
+        'World Champion Public Speaker',
+        'Dragon Investor'
+      ],
+      typeSpeed: 50,       // typing speed (ms per character)
+      backSpeed: 30,       // speed of backspacing
+      backDelay: 2000,     // pause before backspacing (2s)
+      startDelay: 500,     // pause before typing first string
+      loop: true,          // keep looping
+      smartBackspace: true, // only backspace what’s different (smoother)
+      showCursor: false
+    });
+  </script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
